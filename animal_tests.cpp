@@ -9,7 +9,7 @@ animal_tests::animal_tests()
 
 void animal_tests::onCowMooed()
 {
-
+    ++m_countMoo;
 }
 
 void animal_tests::init()
